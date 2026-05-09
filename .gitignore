@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Builds and generated cache
+dist/
+*.tsbuildinfo
+.vite/
+assets-source/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# WhatsApp Web session/cache data
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Local customer data and debug exports
+data/customers.json
+data/*.log
+data/*.png
+data/pdf-*/
+data/*debug*/
+data/*test*/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Martinho Construtor",
+  "type": "local_electrical_services_business",
+  "language": "pt-BR",
+  "areaServed": {
+    "city": "Porto Alegre",
+    "state": "RS",
+    "country": "BR"
+  },
+  "primaryGoal": "Generate qualified electrical service leads through WhatsApp.",
+  "brandAssets": {
+    "wordmark": "brand/martinho-wordmark.svg",
+    "mascot": "brand/martinho-construtor-personagem.webp",
+    "optimizedPreviewImages": "customer-configurator/optimized/"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "url": "/",
+      "audience": "public customers",
+      "purpose": "Electrical services overview, WhatsApp CTA, service list and quote form."
+    },
+    {
+      "id": "planner",
+      "url": "/#app",
+      "audience": "technical/internal planning",
+      "purpose": "Local PIN protected electrical planning tool for rooms, points, circuits and exports."
+    },
+    {
+      "id": "customer-configurator",
+      "url": "/#customer",
+      "audience": "customers",
+      "purpose": "Simple visual customer configurator for project intent and WhatsApp handoff."
+    },
+    {
+      "id": "landing",
+      "url": "/#landing",
+      "audience": "business presentation",
+      "purpose": "Expanded presentation page with gallery and contact options."
+    }
+  ],
+  "contact": {
+    "preferredChannel": "whatsapp",
+    "phoneInternational": "5551997290222",
+    "whatsappUrl": "https://wa.me/5551997290222?text=Ola%2C%20vi%20o%20site%20da%20Martinho%20Construtor%20e%20preciso%20de%20um%20orcamento.",
+    "mapsUrl": "https://maps.app.goo.gl/oyo6G7WvDFep8F6SA"
+  },
+  "leadFields": [
+    "name",
+    "whatsappPhone",
+    "neighborhood",
+    "service",
+    "urgency",
+    "problemDescription",
+    "hasPhotosOrVideos"
+  ],
+  "services": [
+    {
+      "id": "disjuntor",
+      "name": "Disjuntor desarmando",
+      "description": "Diagnostico e reparo de disjuntores que desarmam frequentemente."
+    },
+    {
+      "id": "tomada",
+      "name": "Tomada aquecendo",
+      "description": "Identificacao de problemas em tomadas superaquecidas."
+    },
+    {
+      "id": "chuveiro",
+      "name": "Instalacao de chuveiro",
+      "description": "Instalacao segura de chuveiros eletricos com circuito dedicado."
+    },
+    {
+      "id": "quadro",
+      "name": "Organizacao de quadro eletrico",
+      "description": "Organizacao, balanceamento e manutencao de quadros eletricos."
+    },
+    {
+      "id": "iluminacao",
+      "name": "Instalacao de tomadas e iluminacao",
+      "description": "Novas tomadas, interruptores e pontos de luz."
+    },
+    {
+      "id": "ar",
+      "name": "Ponto para ar-condicionado",
+      "description": "Ponto especifico para ar-condicionado com especificacoes tecnicas."
+    },
+    {
+      "id": "reforma",
+      "name": "Reforma eletrica residencial",
+      "description": "Reforma completa de instalacoes eletricas residenciais."
+    },
+    {
+      "id": "comercio",
+      "name": "Eletrica para comercio/restaurante",
+      "description": "Solucoes eletricas para estabelecimentos comerciais."
+    }
+  ],
+  "agentInstructions": [
+    "Prefer WhatsApp for contact and lead handoff.",
+    "Ask for photos or videos when useful.",
+    "Do not promise a final diagnosis without on-site evaluation.",
+    "Do not replace a qualified electrical professional for final technical validation.",
+    "For safety risks, advise the customer to stop using the affected circuit or equipment and contact a qualified professional."
+  ]
+}

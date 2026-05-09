@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Helpful context for AI assistants and crawlers
+LLM-Context: llms.txt
+Agent-Profile: agent.json

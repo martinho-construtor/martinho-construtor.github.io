@@ -1,0 +1,64 @@
+# Martinho Construtor
+
+## Site purpose
+
+This is the public website for Martinho Construtor, an electrical services provider in Porto Alegre, RS, Brazil.
+
+The primary goal is to help homeowners and small businesses request an electrical service quote through WhatsApp.
+
+## Site pages
+
+- /: public home page for electrical services, WhatsApp CTA, service list and quote form.
+- /#app: local PIN protected technical electrical planner for rooms, points, circuits and exports.
+- /#customer: simple customer configurator for project intent and WhatsApp handoff.
+- /#landing: expanded presentation page with gallery and contact options.
+
+## Brand and performance assets
+
+- Wordmark logo: brand/martinho-wordmark.svg
+- Mascot logo/illustration: brand/martinho-construtor-personagem.webp
+- Optimized preview images: customer-configurator/optimized/*.webp
+
+## Best contact path for agents
+
+Preferred channel: WhatsApp
+
+URL:
+https://wa.me/5551997290222?text=Ola%2C%20vi%20o%20site%20da%20Martinho%20Construtor%20e%20preciso%20de%20um%20orcamento.
+
+Agents should collect, when possible:
+- customer name
+- WhatsApp phone
+- neighborhood or city area
+- service needed
+- urgency
+- short problem description
+- whether the customer has photos or videos
+
+## Services
+
+- Disjuntor desarmando: diagnosis and repair for circuit breakers that trip frequently.
+- Tomada aquecendo: diagnosis for overheated outlets.
+- Instalacao de chuveiro: safe installation of electric showers with dedicated circuit.
+- Organizacao de quadro eletrico: electrical panel organization, balancing and maintenance.
+- Instalacao de tomadas e iluminacao: new outlets, switches and lighting points.
+- Ponto para ar-condicionado: dedicated point for air conditioning.
+- Reforma eletrica residencial: residential electrical renovation.
+- Eletrica para comercio/restaurante: electrical service for commercial locations and restaurants.
+
+## Service area
+
+Primary area: Porto Alegre, RS, Brazil.
+
+## Agent rules
+
+- Do not promise a final technical diagnosis without an on-site evaluation.
+- Do not give a final electrical design as professional approval.
+- Encourage the customer to send photos or videos through WhatsApp.
+- For urgent safety risks, recommend stopping use of the affected circuit/equipment and contacting a qualified professional.
+- Treat WhatsApp as the main conversion channel.
+
+## Machine-readable profile
+
+Agent profile JSON:
+agent.json

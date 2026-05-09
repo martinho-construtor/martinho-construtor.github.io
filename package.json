@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "web": "vite --host 127.0.0.1",
+    "build:web": "tsc -b && vite build",
+    "check:web": "tsc -b --pretty false && vite build",
+    "preview:web": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.4",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.14.0",
+    "openai": "^4.104.0",
+    "qrcode-terminal": "^0.12.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "whatsapp-web.js": "^1.26.0",
+    "write-excel-file": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.10"
+  }
+}
